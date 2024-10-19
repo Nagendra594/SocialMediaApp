@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "cross-env NODE_ENV=production MONGO_URL = mongodb+srv://chnagendra594:HomeLander@socialmedia.xeesb.mongodb.net/socialMediaDataBase?appName=SocialMedia PORT=8080 ACCESS_KEY_ID=AKIAVBPT7XZWP737DA7P SECRET_ACCESS_KEY=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 node index.js",
     "start-dev": "nodemon index.js"
   },
   "author": "",
