@@ -1,0 +1,20 @@
+.frnds {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+.frnds:hover {
+  background-color: rgb(252, 250, 250);
+}
+.frnds img {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.frnds span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}

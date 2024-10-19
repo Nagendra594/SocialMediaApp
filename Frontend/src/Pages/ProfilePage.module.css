@@ -1,0 +1,114 @@
+.main_content {
+  display: flex;
+}
+.RightBar {
+  flex: 9;
+  flex-direction: column;
+}
+.Pics {
+  position: relative;
+}
+.coverPic {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+}
+.profilePic {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 230px;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3.5rem 0 1rem 0;
+}
+.about h4 {
+  font-size: 2rem;
+}
+.bottom {
+  display: flex;
+}
+
+.bottom__right {
+  flex: 3.2;
+  padding: 20px;
+}
+.bottom__userInfo {
+  margin-bottom: 2rem;
+}
+.bottom__userInfo h4,
+.bottom__friends h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.6rem;
+}
+.bottom__userInfo div {
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+}
+.bottom__key {
+  margin-right: 1.2rem;
+  color: rgb(86, 86, 86);
+  font-weight: 600;
+}
+.bottom__friends img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.bottom__userDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.bottom__userDetails span {
+  margin-top: 0.5rem;
+  color: black;
+}
+.bottom__allUsers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 1rem;
+}
+.followBtn {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgb(31, 79, 222);
+  color: white;
+  font-size: 1.2rem;
+  width: max-content;
+  border-radius: 5px;
+  margin: 1.8rem 0;
+  border: none;
+}
+
+.msgLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgb(31, 79, 222);
+  color: white;
+  font-size: 1.2rem;
+  width: max-content;
+  border-radius: 5px;
+  margin: 1.8rem 0;
+  border: none;
+}
+.msgLink span {
+  margin-right: 0.2rem;
+}

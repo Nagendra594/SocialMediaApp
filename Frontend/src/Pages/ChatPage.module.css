@@ -1,0 +1,24 @@
+.chat {
+  display: flex;
+  height: 90vh;
+}
+.chat__frnds {
+  max-width: 20em;
+  flex: 3.5;
+}
+.chat__messages {
+  max-width: 50em;
+  flex: 5.5;
+}
+.chat__noMessages {
+  max-width: 50em;
+  flex: 5.5;
+  font-size: 4rem;
+  display: flex;
+  place-items: center;
+  color: rgb(215, 210, 210);
+}
+.chat__onlineFrnds {
+  max-width: 20em;
+  flex: 3;
+}

@@ -1,0 +1,24 @@
+.bottomSection__top img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bottomSection__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottomSection__top__details {
+  display: flex;
+  align-items: center;
+}
+.bottomSection__top__name {
+  margin-left: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.bottomSection__top__timeline {
+  margin-left: 1rem;
+}

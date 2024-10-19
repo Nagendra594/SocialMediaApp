@@ -1,0 +1,77 @@
+.sideBar {
+  flex: 3;
+  height: 90vh;
+  overflow-y: scroll;
+  position: sticky;
+  top: 60px;
+}
+
+.sideBar__main {
+  padding: 1.5rem;
+}
+.sideBar__ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+.sideBar__ul li {
+  margin-block-end: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.sideBar__ul li span {
+  margin-inline-start: 0.8rem;
+}
+
+.sideBar__button {
+  padding: 0.8rem;
+  border: none;
+  background-color: rgb(244, 244, 244);
+  border-radius: 15px;
+  color: rgb(129, 126, 126);
+  font-weight: 500;
+}
+.sideBar__hr {
+  margin: 1.3rem 0;
+}
+.sideBar__friendsList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sideBar__friendsList li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sideBar__friendsList li img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sideBar__friendsList li span {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(231, 231, 231);
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(172, 172, 172);
+}
+.userFrnd {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+}

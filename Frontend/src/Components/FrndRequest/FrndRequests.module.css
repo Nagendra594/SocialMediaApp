@@ -1,0 +1,39 @@
+.frndRequests__list__frnd {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.frndRequests__list__frnd__img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.frndRequests__list__frnd__userName {
+  font-size: 1.2rem;
+}
+.frndRequests__list__frnd__responseBtn {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgb(31, 79, 222);
+  color: white;
+  font-size: 1.2rem;
+  width: max-content;
+  border-radius: 5px;
+  margin: 1.8rem 0;
+  border: none;
+}
+.frndRequests__list__frnd__responseBtnDecline {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgb(227, 224, 224);
+  font-size: 1.2rem;
+  width: max-content;
+  border-radius: 5px;
+  margin: 1.8rem 0;
+  border: none;
+}

@@ -1,0 +1,13 @@
+.bottomSection__middle {
+  margin: 1rem 0;
+}
+
+.bottomSection__middle__desc {
+  margin: 1.2rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.bottomSection__middle__img {
+  width: 100%;
+  object-fit: cover;
+}

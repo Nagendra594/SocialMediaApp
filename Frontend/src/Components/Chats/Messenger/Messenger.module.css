@@ -1,0 +1,36 @@
+.messengerWrapper {
+  padding: 1rem;
+  height: 100%;
+}
+.chatting {
+  overflow-y: scroll;
+  height: calc(100vh - 60px - 5rem);
+  padding: 1rem;
+}
+.message {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.message textarea {
+  width: 80%;
+  height: 3rem;
+  border-radius: 20px;
+  padding: 10px;
+  overflow-y: hidden;
+}
+.message button {
+  background-color: teal;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 0.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+textarea:focus {
+  outline: none;
+}

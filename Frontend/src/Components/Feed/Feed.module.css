@@ -1,0 +1,14 @@
+.feedContainer {
+  flex: 5.5;
+  /* overflow-y: scroll; */
+}
+
+.feedWrapper {
+  padding: 1rem;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}

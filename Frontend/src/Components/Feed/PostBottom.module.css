@@ -1,0 +1,22 @@
+.bottomSection__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottomSection__interact {
+  display: flex;
+  align-items: center;
+}
+.bottomSection__interact img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.2rem;
+}
+.bottomSection__interact span {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.bottomSection__comments {
+  border-bottom: 1px dashed grey;
+}
