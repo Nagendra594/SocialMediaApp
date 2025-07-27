@@ -12,7 +12,7 @@ import { signupAction } from "./Components/Register/Register";
 import { shareAction } from "./Components/Feed/Share";
 import { userFriendsLoader } from "./Pages/ProfilePage";
 import ChatPage from "./Pages/ChatPage";
-const Router = createBrowserRouter([
+const routes = createBrowserRouter([
   {
     path: "/",
     element: <MainNavigation />,
@@ -52,7 +52,7 @@ const Router = createBrowserRouter([
 function App() {
   return (
     <Provider store={store}>
-      <RouterProvider router={Router} />
+      <RouterProvider router={routes} />
     </Provider>
   );
 }
